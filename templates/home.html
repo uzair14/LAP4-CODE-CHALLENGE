@@ -1,7 +1,9 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>URL Shortener</h1>
+<div>
+  <h1>URL Shortener</h1>
+</div>
 
 <form method="POST" action="/result">
   <input type="url" id="longurl" name="longurl" placeholder="Enter URL" required>
