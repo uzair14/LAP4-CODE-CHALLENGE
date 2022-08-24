@@ -3,8 +3,8 @@
 {% block content %}
 <h1>URL Shortener</h1>
 
-<form method="POST" action="/">
-  <input type="url" id="url" name="url" placeholder="Enter URL" pattern="https://.*" required>
+<form method="POST" action="/result">
+  <input type="url" id="longurl" name="longurl" placeholder="Enter URL" required>
   <input type="submit" value="submit">
 </form>
 
